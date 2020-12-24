@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+h1.thicker {
+  font-weight: 200;
+  font-size: 46px;
+  color: #492B65;
+}
+h3.e1{
+	font-weight: 500;
+	font-size: 22px;
+	color: #D78A38;
+}
+#grad1 {
+  background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+div.c {
+  text-align: right;
+}
+p.e2{
+	font-weight: 500;
+	font-size: 30px;
+}
+ol {
+	columns:2;
+}
+ol > li::marker {
+	content:counter(list-item) ")\2003";
+}
+</style>
+</head>
+<body>
+<div id="grad1">
+	<center><h1 class="thicker">প্রতিদিন কারেন্ট অ্যাফেয়ার্স</h1><h3 class="e1">ও প্রাসঙ্গিক তথ্য</h3></center>
+	<div class="c">
+		<p class="e2"><u>Date:-</u> <script> document.write(new Date().toLocaleDateString()); </script></p>
+	</div>
+	<ol>
+		<li>hello</li>
+	</ol>
+</div>
+</body>
+</html>
